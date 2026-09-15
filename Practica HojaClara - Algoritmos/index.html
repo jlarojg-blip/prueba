@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HojaClara</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="encabezado-app">
+
+<div class="marca">
+    <img 
+        class="logo-app"
+        src="https://upload.wikimedia.org/wikipedia/commons/6/60/Microsoft_Office_Excel_%282025%E2%80%93present%29.svg"
+        alt="Logo de Excel"
+    >
+
+    <div>
+        <h1>HojaClara</h1>
+        <p>Tu hoja de cálculo simple y local</p>
+
+        <div class="estado-app">
+    <span class="punto-estado"></span>
+    <span id="estadoGuardado">Listo</span>
+</div>
+
+    </div>
+</div>
+
+        <div class="acciones">
+
+            <button id="guardarHoja" class="boton">
+                 Guardar
+            </button>
+
+            <button id="exportarCSV" class="boton boton-principal">
+                ↓ Exportar CSV
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main class="contenedor-hoja">
+
+        <div class="titulo-hoja">
+            <span> Hoja de trabajo</span>
+            <small>15 filas × 10 columnas</small>
+        </div>
+
+        <div id="hoja"></div>
+
+    </main>
+
+
+    <script src="Js/almacenamientoHoja.js"></script>
+    <script src="Js/operacionesHoja.js"></script>
+    <script src="Js/motorCalculos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

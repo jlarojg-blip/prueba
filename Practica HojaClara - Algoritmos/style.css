@@ -1,0 +1,185 @@
+body {
+
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5f6f8;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid #d0d5dd;
+    min-width: 80px;
+    height: 32px;
+    text-align: center;
+    transition: background 0.15s;
+}
+
+th {
+    background-color: #f1f3f5;
+    color: #344054;
+    font-weight: 600;
+}
+
+td {
+    background-color: white;
+    cursor: cell;
+}
+
+td:hover {
+    background-color: #f4fbf7;
+}
+#hoja {
+    margin-top: 20px;
+}
+
+.positivo {
+    background-color: #d4edda;
+}
+
+.negativo {
+    background-color: #f8d7da;
+}
+
+.error {
+    background-color: #fff3cd;
+    font-weight: bold;
+}
+
+.encabezado-app {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto 20px;
+    padding: 20px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.encabezado-app h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.encabezado-app p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.acciones {
+    display: flex;
+    gap: 10px;
+}
+
+.boton {
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.boton:hover {
+    background: #f3f3f3;
+}
+
+.boton-principal {
+    background: #198754;
+    color: white;
+    border-color: #198754;
+}
+
+.boton-principal:hover {
+    background: #157347;
+}
+
+.contenedor-hoja {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    padding: 25px;
+
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.titulo-hoja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.titulo-hoja span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.titulo-hoja small {
+    color: #777;
+}
+
+#hoja {
+    overflow-x: auto;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.marca img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.marca h1 {
+    text-align: left;
+}
+
+.logo-app {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.estado-app {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #666;
+}
+
+.punto-estado {
+    width: 8px;
+    height: 8px;
+    background-color: #198754;
+    border-radius: 50%;
+}
